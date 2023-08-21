@@ -6,4 +6,5 @@ cv.imshow('111',img)
 res = cv.resize(img,None,fx=2, fy=2, interpolation = cv.INTER_CUBIC)
 
 cv.waitKey(0)
+print('yes')
 cv.destroyAllWindows()
