@@ -1,5 +1,5 @@
 import numpy as np
-import cv2 as cv
+# import cv2 as cv
 print('yes')
 img=cv.imread('sample.jpg',1)
 cv.namedWindow('111',cv.WINDOW_NORMAL)
